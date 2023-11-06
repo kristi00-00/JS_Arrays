@@ -17,3 +17,7 @@ let newArr=arr.filter(elem=>elem>0 && elem<10);
 newArr=newArr.reduce((sum,elem)=>sum+elem,0);
 console.log(newArr);
 }
+function isChetn(arr)
+{
+  return arr.every((elem)=>elem%2==0);
+}
