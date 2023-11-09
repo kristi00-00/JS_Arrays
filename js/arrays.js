@@ -20,3 +20,12 @@ function isChetn(arr)
 {
   return arr.every((elem)=>elem%2==0);
 }
+function calcFive(arr) 
+{
+ let newArr=arr.filter((elem)=>elem%5==0);
+ return newArr;
+}
+function task4(){
+let arr=[1,2,5,12,15,21];
+console.log(calcFive(arr));
+}
