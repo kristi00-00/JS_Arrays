@@ -16,12 +16,10 @@ let newArr=arr.filter(elem=>elem>0 && elem<10);
 newArr=newArr.reduce((sum,elem)=>sum+elem,0);
 console.log(newArr);
 }
-
 function isChetn(arr)
 {
   return arr.every((elem)=>elem%2==0);
 }
-
 function calcFive(arr) 
 {
  let newArr=arr.filter((elem)=>elem%5==0);
@@ -31,7 +29,6 @@ function task4(){
 let arr=[1,2,5,12,15,21];
 console.log(calcFive(arr));
 } 
-
 function average(arr){
   let summa = arr.reduce((sum,elem)=>sum+elem,0);
   let elem = arr.length;
