@@ -43,6 +43,8 @@ function task5(){
   let x=average(arr);
    console.log(x.toFixed(1));
   }
+
+  
 function task6(){
   let arr = Array.from(Array(10),()=>{return Math.round(Math.random()*20)});
  console.log(arr.toString());
