@@ -68,3 +68,11 @@ function changeSp(arr){
 
 }
 }
+
+function task9()
+{
+  let arr=['http://','ht','htt'];
+  console.log(arr.toString());
+  let res=arr.filter(newArr=>newArr.startsWith('http://'));
+  console.log(res);
+}
