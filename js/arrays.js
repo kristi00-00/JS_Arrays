@@ -43,3 +43,28 @@ function task5(){
   let x=average(arr);
    console.log(x.toFixed(1));
   }
+function task6(){
+  let arr = Array.from(Array(10),()=>{return Math.round(Math.random()*20)});
+ console.log(arr.toString());
+ console.log(change(arr));
+
+function change(arr){
+   arr.push(arr[0]);
+   arr.shift(0);
+   return arr;
+   
+}
+
+function changeSp(arr){
+   arr.push(arr.splice(0,1)[0]);
+   return arr;
+
+}
+
+   function changeSl(arr){
+   const x=arr.splice(1,arr.length);
+    x.push(arr [0]);
+   return x;
+
+}
+}
