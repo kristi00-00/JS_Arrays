@@ -68,7 +68,14 @@ function changeSp(arr){
 
 }
 }
+function task8(){
+let str=prompt('');
+let arr = str.split('');
+console.log(arr);
 
+newArr=arr.map(elem=>elem%10+1);
+console.log(newArr.toString());
+}
 function task9()
 {
   let arr=['http://','ht','htt'];
